@@ -279,7 +279,7 @@ strong {
 .custom-text-box-image {
   border-radius: var(--border-radius-medium);
   width: 100%;
-  height: 100%;
+  height: 92%;
   object-fit: cover;
 }
 
@@ -571,6 +571,18 @@ strong {
 #hero-slide .carousel-item {
   height: 680px;
   min-height: 680px;
+}
+
+.Hero-heading{
+  background-color: white !important;
+  top: 20px;
+ width: 100%;
+ text-align: center;
+  h3{
+    background-color: white !important;
+     font-size: 20px;
+    color: #0000009a;
+  }
 }
 
 #hero-slide .carousel-caption {
