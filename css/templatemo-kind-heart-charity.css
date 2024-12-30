@@ -175,6 +175,7 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
+  margin-top: 200px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -569,19 +570,19 @@ strong {
 }
 
 #hero-slide .carousel-item {
-  height: 680px;
-  min-height: 680px;
+  height: 900px;
+  min-height: 800px;
 }
 
 .Hero-heading{
-  background-color: white !important;
-  top: 20px;
- width: 100%;
- text-align: center;
+   position: absolute;
+  top: 35%;
+
+  width: 100%;
+  text-align: center;
   h3{
-    background-color: white !important;
-     font-size: 20px;
-    color: #0000009a;
+    font-size: 20px;
+    color: #ffffffcc;
   }
 }
 
@@ -1406,7 +1407,7 @@ blockquote::before {
 @media screen and (max-width: 1170px) {
   #hero-slide .carousel-image {
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
 }
 
